@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #221c35;
+}
+
+.container{
+    width: 100vh;
+    height: 80vh;
+    display: grid;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
+    
+}
+h1 {
+    color:#221c35;
+    display: flex;
+    text-align: center;
+    
+
+}
+
+.form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    background-color: #97d700;
+    padding: 3rem;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+   
+}
+
+.input-box input {
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+}
+
+.input-box input::placeholder{
+    color: #0a0909be;
+}
+
+p {
+    font-family: Quicksand;
+    color: rgb(255, 0, 0);
+    font-size: larger;
+
+}
+
+.conteudo-group{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.62rem;
+    padding: 0 0 .5rem;
+    flex-direction: column;
+    
+    
+    
+}
+
+.conteudo-input{
+    display: flex;
+    align-items: center;  
+}
+
+.conteudo-input input{
+    margin-right: 0.35rem;   
+}
+
+.conteudo-input label{
+    font-size: 0.81rem;
+    font-weight: 600;
+    color: #000000c0;  
+}
+
+/*@media screen and (max-width: 1030px) {
+        
+    .container{
+        width: 50%;
+    }
+
+    .form {
+        width: auto;
+    }
+    
+}
+@media screen and (max-width: 1064px){
+    .container {
+        width: 90%;
+        height: auto;
+    }
+    
+    .input-group{
+        flex-direction: column;
+        overflow-y: scroll;
+        flex-wrap: nowrap;
+        max-height: 10rem;
+        padding-right: 5rem;
+    }
+
+    .conteudo-inputs{
+        margin-top: 2rem;
+    }
+
+    .conteudo-group{
+        flex-direction: column;
+    }
+
+    .conteudo-input{
+        margin-top: 0.5rem;
+    }
+
+    
+}*/
